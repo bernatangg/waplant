@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".OnBoardingActivity">
+
+    <ImageView
+        android:id="@+id/iv_on_board_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerInside"
+        android:src="@drawable/img_onboard_1" />
+
+    <TextView
+        android:id="@+id/tv_1_on_board_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_on_board_1"
+        android:layout_marginTop="64dp"
+        android:text="@string/txt_1_on_board_1"
+        android:fontFamily="@font/muli_bold"
+        android:textSize="20sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_2_on_board_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_1_on_board_1"
+        android:layout_marginTop="16dp"
+        android:text="@string/txt_2_on_board_1"
+        android:lineSpacingMultiplier="1.2"
+        android:fontFamily="@font/muli_regular"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
+
+
+</RelativeLayout>
